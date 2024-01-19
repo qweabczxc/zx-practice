@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header_footer.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <title>Cards</title>
+</head>
+<body>
+    <header>
+        <img src="img/Group.png" id="header_img">
+        <p id="header_1">CYSPNET</p>
+        <p onclick="window.location.href='main.html'" style="cursor: pointer;" id="header_2">Главная</p>
+        <p onclick="window.location.href='about.html'" style="cursor: pointer;" id="header_3">О проекте</p>
+        <p onclick="window.location.href='Capabilities.html'" style="cursor: pointer;" id="header_4">Возможности</p>
+        <p onclick="window.location.href='role.html'" style="cursor: pointer;" id="header_5">Роли</p>
+        <p onclick="window.location.href='statistic.html'" style="cursor: pointer;" id="header_6">Статистика</p>
+        <p onclick="window.location.href='FAQ.html'" style="cursor: pointer;"id="header_7">FAQ</p>
+        <p onclick="window.location.href='modal2.html'" style="cursor: pointer;" id="header_8">Войти</p>
+        <button onclick="window.location.href='modal1.html'" style="cursor: pointer;" class="hdr_but">Регистрация</button>
+        <img class="poloski" src="img/poloski.png">
+    </header>
+    <div class="eclips"></div>
+    <div class="slai">
+        <img src="img/Rectangle 02.png" alt=""id="rec">
+        <img src="img/Rectangle 02.png" alt=""id="rec">
+        <img src="img/Rectangle 02.png" alt=""id="rec">
+        <img src="img/Rectangle 02.png" alt="" id="rec">
+        <img src="img/Rectangle 02.png" alt=""id="rec">
+        <img src="img1/Rectangle 01.png" alt=""id="rec">
+        <img src="img/Rectangle 02.png" alt=""id="rec">
+        <img src="img/Rectangle 02.png" id="rec">
+        <img src="img/Rectangle 02.png" id="rec">
+    </div>
+    <main>
+        <div class="crd">
+
+            <div class="crds">
+                <img class="crd1" src="img1/CAMMON 1-2.png"> 
+                <img class="crd2" src="img1/VIP 3-2.png"> 
+                <div class="crd3">
+                <img  src="img1/VIP 4-1.png">
+                <div class="in_crd3">
+                    <img class="pt" src="img2/патерн.png">
+                    <img class="lg" src="img2/лого.png">
+                    <p class="cys">CYSPNET</p>
+                    <img class="csgo" src="img2/CSGO 1.png">
+                    <img class="search" src="img2/Search 2.png">
+                    <img class="support" src="img2/Support 3.png">
+                    <img class="mouse" src="img2/Мышь 1.png">
+                    <p class="cifr">98</p>
+                    <img class="russia" src="img2/RUS Russia - Россия 1.png">
+                    <img class="nal" src="img2/Без лиги 1.png">
+                    <img class="pod1" src="img2/pod.png">
+                    <img class="pod2" src="img2/pod.png">
+                    <img class="pod3" src="img2/pod.png">
+                    <img class="kor" src="img2/kor.png">
+                    <img class="kd" src="img2/kd.png">
+                    <img class="fig" src="img2/fig.png">
+                    <p class="kort">34</p>
+                    <p class="kdt">3.3</p>
+                    <p class="figt">57%</p>
+                </div>
+                </div>
+                <img class="crd2" src="img1/VIP 3-3.png"> 
+                <img class="crd1" src="img1/CAMMON 1-1.png"> 
+            </div>
+            <img class="str1" src="img2/arrow left.png">
+            <img class="str2" src="img2/arrow right.png">
+            <img class="nestr" src="img2/Ellipse 62.png">
+            <img class="nestr2" src="img2/Без имени.png">
+            <div class="crdt">
+                <p class="crdt_b">Ваши персональные карточки</p>
+                <p class="crdt_s">У каждого пользователя, команды и даже сообщества есть личная карточка с рейтингом и информацией. Она упрощает поиск и общение между пользователями.</p>
+            </div>
+        </div>
+    </main>
+    <img class="vit1" src="img3/Vector.png">
+    <img class="vit2" src="img3/Vector (1).png">
+    <img class="vit3" src="img3/Vector (2).png">
+    <img class="vit4" src="img3/Vector (3).png">
+    <img class="vit5" src="img3/Vector (4).png">
+    <footer>
+        <div class="footstr">
+            <p id="foot_txt1">Скролль чтобы увидеть больше
+            </p>
+            <img src="img/Arrow.png" id="arr_img">
+        </div>
+        <div class="footstr2">
+        <p id="foot_txt2">Бета-версия</p>
+        <img src="img/Frame.png" id="frame_img">
+    </footer>
+</body>
+<script>
+    
+    window.addEventListener('wheel', function(e) {
+  if (e.deltaY > 0) {
+    window.location.href = 'statistic.html';
+  }
+  else{
+    window.location.href = 'role.html';
+  }
+});
+</script>
+</html>

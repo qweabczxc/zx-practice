@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header_footer.css">
+    <link rel="stylesheet" href="css/statistic.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>stats</title>
+</head>
+<body>
+    <header>
+        <img src="img/Group.png" id="header_img">
+        <p id="header_1">CYSPNET</p>
+        <p onclick="window.location.href='main.html'" style="cursor: pointer;" id="header_2">Главная</p>
+        <p onclick="window.location.href='about.html'" style="cursor: pointer;" id="header_3">О проекте</p>
+        <p onclick="window.location.href='Capabilities.html'" style="cursor: pointer;" id="header_4">Возможности</p>
+        <p onclick="window.location.href='role.html'" style="cursor: pointer;" id="header_5">Роли</p>
+        <p onclick="window.location.href='statistic.html'" style="cursor: pointer;" id="header_6">Статистика</p>
+        <p onclick="window.location.href='FAQ.html'" style="cursor: pointer;"id="header_7">FAQ</p>
+        <p onclick="window.location.href='modal2.html'" style="cursor: pointer;" id="header_8">Войти</p>
+        <button onclick="window.location.href='modal1.html'" style="cursor: pointer;" class="hdr_but">Регистрация</button>
+        <img class="poloski" src="img/poloski.png">
+    </header>
+    <div class="eclips"></div>
+    <div class="cont">
+    <img src="img/Vector1.png" class="vector1" >
+    <div class="slai">
+        <img src="img/Rectangle 02.png" alt=""id="rec">
+        <img src="img/Rectangle 02.png" alt=""id="rec">
+        <img src="img/Rectangle 02.png" alt=""id="rec">
+        <img src="img/Rectangle 02.png" alt="" id="rec">
+        <img src="img/Rectangle 02.png" alt=""id="rec">
+        <img src="img1/Rectangle 02.png" alt=""id="rec">
+        <img src="img/Rectangle 01.png" alt=""id="rec">
+        <img src="img/Rectangle 02.png" id="rec">
+        <img src="img/Rectangle 02.png" id="rec">
+    </div>
+    <main>
+        <div id="eclips1"></div>
+        <div id="eclips2"></div>
+        <div id="eclips3"></div>
+        <div id="eclips4"></div>
+        <div id="div_txt">
+            <div id="main_flex1" class="mephedrone">
+                <p class="main_flex_p1">112</p>
+                <p class="main_flex_p2">Турниров проведено</p>
+                <img src="img/eclipse.png" class="kvadrat">
+            </div>
+            <div id="main_flex2" class="mephedrone">
+                <p class="main_flex_p1">1789</p>
+                <p class="main_flex_p2">Матчей сыграно</p>
+                <img src="img/eclipse.png"  class="kvadrat">
+            </div>
+            <div id="main_flex3" class="mephedrone">
+                <p class="main_flex_p1">5800 $</p>
+                <p class="main_flex_p2">Призового фонда выплачено</p>
+                <img src="img/eclipse.png"  class="kvadrat">
+            </div>
+            <div id="main_flex4" class="mephedrone">
+                <p class="main_flex_p1">3872</p>
+                <p class="main_flex_p2" id="users">Пользователей зарегистрировано</p>
+                <img src="img/eclipse.png"  class="kvadrat">
+            </div>
+        </div>
+        <img src="img/hole.png" id="hole_img">
+        <img src="img/role/Vector2.png" id="vec3">
+        <img src="img/Vector2.png" id="vec2">
+        <img src="img/Vector3.png" id="vec1">
+    </main>
+    <footer>
+        <div class="footstr">
+            <p id="foot_txt1">Скролль чтобы увидеть больше
+            </p>
+            <img src="img/Arrow.png" id="arr_img">                           
+        </div>
+        <div class="footstr2">
+        <p id="foot_txt2">Бета-версия</p>
+        <img src="img/Frame.png" id="frame_img">
+    </footer>
+</body>
+</html>
+<script>
+   
+    window.addEventListener('wheel', function(e) {
+  if (e.deltaY > 0) {
+    window.location.href = 'FAQ.html';
+  }
+  else{
+    window.location.href = 'cards.html';
+  }
+});
+</script>
