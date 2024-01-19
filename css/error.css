@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button {
+    cursor: pointer;
+}
+body{
+    background-color: #2f2a37;
+}
+
+
+#vec1{
+    position: absolute;
+    margin-left: 140px;
+}
+#vec2{
+    position: absolute;
+    margin: 700px 0 0 150px;
+}
+#vec3{
+    position: absolute;
+    margin-left: 1710px; margin-top: 50px;
+}
+#vec4{
+    position: absolute;
+    margin: 600px 0 0 700px;
+}
+main{
+    margin: 100px 0 0 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+    #main_p1{
+        font-size: 250px;
+        font-weight: 700;
+        color: #2f2a37;
+        -webkit-text-stroke: 2px white;
+    }
+    #main_p2{
+        font-size: 96px;
+        font-weight: 100;
+    }
+    #main_button{
+        width: 331px; height: 61px;
+        border-radius: 15px;
+        background: #F04451;
+        box-shadow: 0px 4px 25px 0px rgba(240, 68, 81, 0.25);
+        border: none;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: -100px;
+    }
+    #courier_img{
+        position: absolute;
+        top: 170px; right: 200px;
+    }
+.footstr2{
+    position: absolute;
+    margin-left: 1718px; margin-top: -50px;
+}
+
+
+@media(width: 960px){
+#courier_img{
+    margin-right: -400px;
+    margin-top: -100px;
+}
+    #vec1{  margin: 620px 0 0 50px; }
+    #vec2{  display: none;}
+    #vec3{ display: none; }
+    #vec4{  margin: 600px 0 0 470px; }
+main{
+    margin-left: 20px;
+    margin-top: -20px;
+}
+footer{ display: none;}
+
+}
+@media(width: 640px){
+    #courier_img{
+        margin-right: -770px;
+        margin-top: -20px;
+    }
+
+
+#vec1{  margin: 600px 0 0 40px; }
+#vec2{  opacity: 0; }
+#vec3{  opacity: 0; }
+#vec4{ display: none; }
+main{   margin-left: 20px;  }
+#courier_img{
+    margin-left: -26px; padding-top: 60px;
+}
+footer{ display: none;}
+}
+
+
+@media(width: 360px){
+
+
+
+
+#vec1{  display: none; }
+#vec2{  display: none; }
+#vec3{  display: none; }
+#vec4{  display: none; }
+footer{ display: none;}
+
+main{
+    margin-left: 20px;
+}
+#main_p1{
+    text-align: center;
+    font-size: 150px;
+    margin-top: -100px;
+}
+#main_p2{
+    text-align: center;
+    font-size: 54px;
+    font-weight: 100;
+    margin-top: -70px;
+    margin-bottom: -50px;
+}
+#courier_img{
+margin: 300px -400px 0 0;
+    width: 493px;
+    height: 394px;
+    transform: rotate(15deg);
+    flex-shrink: 0;
+} }

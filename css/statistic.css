@@ -1,0 +1,224 @@
+body{
+    overflow: hidden;
+    background-color: #0d0b19;
+}
+header{
+    z-index: 10;
+}
+main{
+    display: flex;
+    margin-top: -100px;
+}
+#header_2,#header_3,#header_4,#header_5,#header_6,#header_7{
+    z-index: 10;
+}
+#eclips1{
+    position: absolute;
+    margin: -72px 0 0 978px;
+width: 1145px;
+height: 1145px;
+flex-shrink: 0;
+border-radius: 1145px;
+border: 2px dashed rgba(255, 255, 255, 0.25);
+}
+#eclips2{
+     margin: -185px 0 0 748px;
+position: absolute;
+width: 1374px;
+height: 1374px;
+flex-shrink: 0;
+border-radius: 1374px;
+border: 2px dashed rgba(255, 255, 255, 0.25);
+}
+#eclips3{
+    margin: -301px 0 0 518px;
+width: 1605px;
+height: 1605px;
+flex-shrink: 0;
+border-radius: 1605px;
+border: 2px dashed rgba(255, 255, 255, 0.25);
+position: absolute;
+}
+#eclips4{
+   margin: -414px 0 0 288px;
+width: 1829px;
+height: 1829px;
+flex-shrink: 0;
+border-radius: 1829px;
+border: 2px dashed rgba(255, 255, 255, 0.25);
+position: absolute;
+}
+.mephedrone{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.main_flex_p1{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+.main_flex_p2{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    opacity: 0.75;
+    margin-top: -30px;
+}
+#main_flex1{
+    position: absolute;
+    margin: 466px 0 0 296px;
+}
+#main_flex2{
+    position: absolute;
+    margin: 256px 0 0 512px;
+}
+#main_flex3{
+    position: absolute;
+    margin: 600px 0 0 804px;
+}
+#main_flex4{
+    position: absolute;
+    margin: 272px 0 0 972px;
+}
+#hole_img{
+    position: absolute;
+    margin: 234px 0 0 1334px;
+}
+#vec3{
+    position: absolute;
+    left: 230px; top: 130px;
+}
+#vec2{
+    position: absolute;
+    left: 88px; top: 800px;
+}
+#vec1{
+    position: absolute;
+    top: 940px; left: 1450px;
+}
+@media(max-width:960px){
+    #eclips1{
+        margin: -12px 0 0 490px;
+        width: 860px;
+        height: 859px;
+        border-radius: 860px;
+    }
+    #eclips2{
+        margin: -68px 0 0 340px;
+        width: 992px;
+        height: 990px;
+        border-radius: 992px;
+    }
+    #eclips3{
+        margin: -168px 0 0 190px;
+        width: 1190px;
+        height: 1190px;
+        border-radius: 1190px;
+    }
+    #eclips4{
+        margin: -268px 0 0 40px;
+        width: 1390px;
+        height: 1390px;
+        border-radius: 1390px;
+    }
+    #main_flex1{
+        margin: 385px 0 0 50px;
+    }
+    #main_flex2{
+        margin: 195px 0 0 184px;
+    }
+    #main_flex3{
+        margin: 460px 0 0 388px;
+    }
+    #main_flex4{
+        margin: 126px 0 0 496px;
+    }
+    #hole_img{
+        width: 355px;
+        height: 360px;
+        margin: 247px 0 0 570px;
+    }
+    #users{
+        width: 234px;
+    }
+    #vec2{
+        margin-top: -120px; margin-left: 600px;
+    }
+}
+@media(max-width:640px){
+    #eclips1{
+        margin: 610px 0 0 -116px;
+    }
+    #eclips2{
+        margin: 488px 0 0 -190px;
+    }
+    #eclips3{
+        margin: 338px 0 0 -290px;
+    }
+    #eclips4{
+        margin: 188px 0 0 -390px;
+    }
+    .main_flex_p1{
+        font-size: 48px;
+        font-weight: 100;
+    }
+    #main_flex1{
+        margin: 516px 0 0 58px;
+    }
+    #main_flex2{
+        margin: 354px 0 0 500px;
+    }
+    #main_flex3{
+        margin: 200px 0 0 100px;
+    }
+    #main_flex4{
+        margin: 20px 0 0 400px;
+    }
+    #hole_img{
+        bottom:-180px; left: -65%;
+    }
+}
+@media(max-width:360px){
+    #eclips1{
+        width: 860px;
+        height: 859px;
+        border-radius: 860px;
+        margin: 400px 0 0 -50px;
+    }
+    #eclips2{
+        width: 1035px;
+        height: 1033px;
+        border-radius: 1035px;
+        margin: 180px 0 0 -90px;
+    }
+    #eclips3, #eclips4{
+        display: none;
+    }
+    .kvadrat{
+        display: none;
+    }
+    #main_flex1{
+        margin: 500px 0 0 10px;
+    }
+    #main_flex2{
+        margin: 370px 0 0 10px;
+    }
+    #main_flex3{
+        margin: 240px 0 0 10px;
+    }
+    #main_flex4{
+        margin: 90px 0 0 10px;
+    }
+    #hole_img{
+        width: 417px;
+        height: 422px;
+        margin: 50px 0 0 400px;
+    }
+}

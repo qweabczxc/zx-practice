@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    line-height: normal;
+}
+body{
+    background-color:#040614;;
+    width: 100%;
+    
+}
+header{
+    display: flex;
+    margin-top: 57px;}
+    #header_img{ 
+        margin-left: 291px;
+        height: 41px;
+    }
+    p{
+        height: 61px;
+        
+        margin-top: 10px;
+        margin-right: 45px;
+
+        font-size: 18px;
+        font-weight: 400;
+    }
+    #header_1{
+        margin-left: 5px; margin-right: 114px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    #header_8{
+        margin-left: 59px; margin-right: 75px;
+    }
+.hdr_but{
+    background-color: #F04451;
+    box-shadow: 0px 4px 25px 0px rgba(240, 68, 81, 0.25);
+    border-radius: 15px;
+    width: 180px; height: 61px;
+    margin-top: -10px;
+    border:none;
+    font-size: 18px;
+    font-weight: 400;
+    }
+.eclips{
+    width: 55%;
+    height: 55%;
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.5;
+    background: rgba(240, 68, 81, 0.50);
+    filter: blur(250px);
+    margin-left: 20%;
+}
+.cont{
+    display: flex;
+}
+.slai{
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    gap:25px;
+    margin-top: 126px;
+    margin-left: 70px;
+}
+.vector1{
+    position: absolute;
+    margin-left: 5%;
+}
+.poloski{
+    opacity: 0;
+}
+main{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+}
+.faq_gv{
+    margin-top: 5%;
+    display: flex;
+    gap: 25px;
+    width: 1345px;
+    height: 429px;
+    flex-direction: column;
+}
+#faq{
+    height: auto;
+    margin: 0 0 0 0;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 69px */
+}
+.test{
+    background-color: #040614;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid #FFF;
+}
+.accordion {
+    background-color: #040614;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    border: none;
+    outline: none;
+    border-radius:15px ;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 24px;
+  }
+  
+.active, .accordion:hover {
+    background-color: #040614;
+  }
+  .panel {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+    opacity: 0.75;
+  }
+  .accordion:after {
+    content: "\02C5";
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\02C4"; /* Unicode character for "minus" sign (-) */
+  }
+.vector2{
+    position: absolute;
+    margin-left: 40%;
+    width: 56px;
+    height: 64px;
+    transform: rotate(-90deg);
+    margin-top: 30%;
+}
+footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+.footstr{
+    margin-left: 820px;
+    gap: 5px;
+    width: 273px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footstr2{
+    display: flex;
+    margin-left: 625px;
+}
+#frame_img{
+    width: 24px;
+    height: 24px;
+    opacity: 0.5;
+    margin-left: 10px;
+}
+#arr_img{
+    width: 24px;
+    height: 24px;
+    margin-left: 120px;
+    opacity: 0.5;
+}
+#foot_txt1{
+    margin: 0 0 0 0;
+    width: 273px;
+    color: #FFF;
+    font-size: 18px;
+    height: auto;
+    opacity: 0.5;
+
+}
+#foot_txt2{
+    margin: 0 0 0 0;
+    margin-right: 0;
+    height: auto;
+    width:98px;
+    opacity: 0.5;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+}
+@media (max-width:960px) {
+    header{
+        width: 100%;
+        margin-left: -250px;}
+        #header_2, #header_3, #header_4, #header_5, #header_6, #header_7{
+            display: none;
+        }
+        #header_8{
+            margin-left: 250px;
+        }
+        .poloski{
+            opacity: 1;
+            margin-top: -30px; margin-left: 80px;
+        }
+        .foot{
+            display: none;
+        }
+        .slai{
+            display: none;
+        }
+        .vector1{
+            margin-left: 100px;
+            margin-top: 500px;}
+        
+        .eclips{
+            width: 50%;
+            height: 50%;
+            filter: blur(150px);
+        }
+        
+        #faq{
+            font-size: 36px;
+        }
+        .faq_gv{
+            width: 90%;
+        }
+        .panel{
+            height: 40%;
+        }
+
+}
+@media (max-width:640px) {
+    header{
+        width: 100%;
+        margin-left: -42%;}
+        #header_2, #header_3, #header_4, #header_5, #header_6, #header_7,#header_8{
+            display: none;
+        }
+        .hdr_but{
+            display: none;
+        }
+        .poloski{
+            opacity: 1;
+            margin-top: -30px; margin-left: 45%;
+        }
+        .foot{
+            display: none;
+        }
+        .slai{
+            display: none;
+        }
+        .vector1{
+            margin-top: 600px;}
+        .kart4{
+            display: none;
+        }
+        .kart3{
+            display: none;
+        }
+        #glav_txt{
+            font-size: 36px;
+            width: 70%;
+            text-align: center;
+        }
+        .eclips{
+            width: 50%;
+            height: 50%;
+
+        }
+
+}    @media (max-width:360px) {
+    header{
+        width: 100%;
+        margin-left: -75%;}
+        #header_2, #header_3, #header_4, #header_5, #header_6, #header_7,#header_8{
+            display: none;
+        }
+        .hdr_but{
+            display: none;
+        }
+        .poloski{
+            opacity: 1;
+            margin-top: -30px; margin-left: 10%;
+        }
+        .foot{
+            display: none;
+        }
+        .slai{
+            display: none;
+        }
+        .vector1{
+            margin-top: 600px;}
+        .kart4{
+            display: none;
+        }
+        .kart3{
+            display: none;
+        }
+        .kart2{
+            display: none;
+        }
+        #glav_txt{
+            font-size: 24px;
+            width: 70%;
+            text-align: center;
+        }
+        .eclips{
+            width: 50%;
+            height: 50%;
+            filter: blur(120px);
+
+        }
+        #faq{
+            font-size: 24px;
+        }
+        .accordion{
+            font-size: 18px;
+        }
+        .panel{
+            font-size: 14px;
+            
+        }
+       
+}

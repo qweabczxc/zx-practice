@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    line-height: normal;
+}
+body{
+    background-color: #2f2a37;
+}
+main{
+    margin-left: 200px;
+}
+#rec{
+    width: 15px;
+    height:15px;
+}
+.vector1{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 101px;
+}
+.glav_txt1{
+    display:flex;
+    margin-top: 47px;
+    margin-left: 213px;
+    flex-direction: column;
+    width: 600px;
+}
+#gvtxt1{
+    opacity: 0.5;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    line-height: 150%; /* 27px */
+    }
+#gvtxt2{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 110%; /* 70.4px */
+    text-transform: uppercase;
+    width: 722px;
+    margin: 0 0 0 0;
+}
+.peret{
+    margin-top: 170px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    gap: 10px;
+    width:700px;
+}
+#circ{
+   margin-top: 8px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #F04451;
+}
+.gvtxt3{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+    opacity: 0.75;
+    height: 30px;
+    margin: 0 0 0 0;
+}
+.txt_circ{
+    display: flex;
+    gap: 10px;
+}
+.peret2{
+    margin-left: 260px;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    gap: 10px;
+    width:700px;}
+.buttons{
+    display: flex;
+    gap:15px;
+    margin-top: 45px;
+}
+.butt1{
+    height: 69px;
+    width: 224px;
+    border-radius: 15px;
+    background: #F04451;
+    text-align: center;
+    box-shadow: 0px 4px 25px 0px rgba(240, 68, 81, 0.25);
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    line-height: 160%; /* 28.8px */
+    letter-spacing: 0.72px;
+}
+.butt2{
+    background-color: #2f2a37;
+    height: 69px;
+    width: 165px;
+    display: flex;
+    padding: 19px 35px 21px 35px;
+    align-items: flex-start;
+    gap: 10px;
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 160%; /* 28.8px */
+    letter-spacing: 0.72px;
+    border-radius: 15px;
+    border: 1px solid #FFF;
+    }
+.glav_kart{
+    display: flex;
+}
+.zxqwe{
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+#jugg{
+    width: 830px;
+    height: 750px;
+    margin-left: 50px;
+}
+#head{
+    position: absolute;
+    margin-top: 100px;
+    width: 638px;
+    height: 637px;
+    transform: rotate(-45deg);
+}
+
+@media (max-width:960px) {
+    header{
+        width: 960px;
+        margin-left: -250px;}
+        #header_2, #header_3, #header_4, #header_5, #header_6, #header_7{
+            display: none;
+        }
+        #header_8{
+            margin-left: 250px;
+        }
+        .poloski{
+            opacity: 1;
+            margin-top: -30px; margin-left: 100px;
+        }
+        .foot{
+            display: none;
+        }
+        .slai{
+            display: none;
+        }
+        .vector1{
+            margin-top: 600px;
+        }
+        #jugg{
+            height: 500px;
+            width: 438px;
+            margin: 0 0 0 0;
+            margin-left: 40px;
+            margin-top: 40px;
+        }
+        .glav_txt1{
+            margin-left: 40px;
+            width: 400px;
+        }
+        #gvtxt2{
+            font-size: 36px;
+            width: 400px;
+        }
+        .peret{
+            display: flex;
+            flex-direction: column;
+            margin: 0 0 0 0;
+            margin-top: 75px;
+        }
+        .peret2{
+            margin: 0 0 0 0;
+            margin-top: 15px;
+        }
+
+}
+@media(max-width: 640px){
+
+    header{  margin-left: -240px; 
+    width: 600px; }
+    #header_img{
+        width: 50px;
+        position: absolute;
+        left:-60px;
+        margin-left: 70px;
+    }
+    .txt_circ{
+        width: 380px;
+    }
+    #header_1{
+        position: absolute;
+        left: 70px; top: 60px;
+    }
+    #header_img{
+        width: 50px;
+        height: 50px;
+    }
+    .hdr_but{
+        display: none;
+    }
+    .poloski{
+        margin-top: -5px;
+        opacity: 1;
+        margin-left: 800px;
+    }
+    #header_2, #header_3, #header_4, #header_5, #header_6, #header_7,#header_8{
+        display: none;
+    }
+    .peret{
+        width: 600px;
+    }
+    .peret2{
+        width: 600px;
+    }
+    .foot{
+        display: none;
+    }
+    #jugg{
+        display: none;
+    }
+    .zxqwe{
+        width: 300px;
+        height: 350px;
+        opacity: 1;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
+    .eclips{
+        width: 300px;
+        height: 300px;
+        margin: 0 0 0 0;
+    }
+    }
+@media(max-width:360px){
+        header{  margin-left: -240px; 
+            width: 280px; }
+            #gvtxt1{
+                font-size: 14px;
+            }
+            .glav_txt1{
+                width: 310px;
+            }
+            #gvtxt2{
+                font-size: 24px;
+                width: 270px;
+            }
+            .txt_circ{
+                font-size: 14px;
+            }
+            .gvtxt3{
+                font-size: 14px;
+            }
+            #header_img{
+                width: 50px;
+                position: absolute;
+                left:-60px;
+                margin-left: 70px;
+            }
+            .vector1{
+                display: none;
+            }
+            .buttons{
+                margin-top: 0;
+                margin-top: 10px;
+                flex-direction: column;
+            }
+            .txt_circ{
+                width: 280px;
+            }
+            #header_1{
+                position: absolute;
+                left: 70px; top: 60px;
+            }
+            #header_img{
+                width: 50px;
+                height: 50px;
+            }
+            .hdr_but{
+                display: none;
+            }
+            .poloski{
+                margin-top: -5px;
+                opacity: 1;
+                margin-left: 540px;
+            }
+            #header_2, #header_3, #header_4, #header_5, #header_6, #header_7,#header_8{
+                display: none;
+            }
+            .peret{
+                width: 280px;
+            }
+            .peret2{
+                width: 280px;
+            }
+            .foot{
+                display: none;
+            }
+            #jugg{
+                display: none;
+            }
+            .zxqwe{
+                width: 180px;
+                height: 200px;
+                opacity: 1;
+                position: absolute;
+                right: 0px;
+                bottom: 0px;
+            }
+            }
+    
+    
+
+
