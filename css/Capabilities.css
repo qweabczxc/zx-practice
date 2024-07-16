@@ -95,43 +95,7 @@ main{
     gap: 35px;
     justify-content: center;
 }
-.kart1{
-    display: flex;
-    flex-direction: column;
-    width: 275px;
-    height: 350px;
-    background-color: #181A28;
-    border-radius: 15px;
-    border: 2px solid rgba(255, 255, 255, 0.50);
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-}
-.kart2{
-    display: flex;
-    flex-direction: column;
-    width: 275px;
-    height: 350px;
-    background-color: #181A28;
-    border-radius: 15px;
-    border: 2px solid rgba(255, 255, 255, 0.50);
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-}
-.kart3{
-    display: flex;
-    flex-direction: column;
-    width: 275px;
-    height: 350px;
-    background-color: #181A28;
-    border-radius: 15px;
-    border: 2px solid rgba(255, 255, 255, 0.50);
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-}
-.kart4{
+.kart{
     display: flex;
     flex-direction: column;
     width: 275px;
@@ -165,6 +129,15 @@ main{
 #rec1{
     width: 8px;
     height: 8px;
+    background-color: white;
+    border-radius: 15px;
+}
+.rec{
+    opacity: 25%;
+}
+.krugi{
+    display: flex;
+    gap: 5px;
 }
 #arrow_left{
     position: absolute;
